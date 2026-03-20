@@ -16,8 +16,8 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: ${{ devopslearnnits }}
+          password: ${{ Nits@1280 }}
 
       - name: Build Docker Image
         run: docker build -t devopslearnnits/my-node-app .
