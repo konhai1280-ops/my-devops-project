@@ -15,7 +15,7 @@ const connection = mysql.createConnection({
 
 // API to test
 app.get('/', (req, res) => {
-  res.send('Server is running 🚀');
+  res.send('CI/CD Auto Deploy Working 🚀');
 });
 
 // API to fetch users
